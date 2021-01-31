@@ -7,14 +7,14 @@
             <h2>Aggiungi prenotazione</h2>
         </div>
         <div class="pull-right">
-            <a class="btn btn-primary" href="{{ route('bookings.index') }}"> Indietro</a>
+            <a class="btn btn-eris" href="{{ route('bookings.index') }}"> Indietro</a>
         </div>
     </div>
 </div>
 
 @if ($errors->any())
     <div class="alert alert-danger">
-        <strong>Whoops!</strong> There were some problems with your input.<br><br>
+        <strong>Ops!</strong> There were some problems with your input.<br><br>
         <ul>
             @foreach ($errors->all() as $error)
                 <li>{{ $error }}</li>
@@ -64,7 +64,7 @@
         </div>
       </div>
         <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-                <button type="submit" class="btn btn-primary">Aggiungi</button>
+                <button type="submit" class="btn btn-eris">Aggiungi</button>
         </div>
     </div>
   

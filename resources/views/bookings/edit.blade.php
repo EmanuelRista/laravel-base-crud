@@ -7,7 +7,7 @@
                 <h2>Edit Booking</h2>
             </div>
             <div class="pull-right">
-                <a class="btn btn-primary" href="{{ route('bookings.index') }}"> Back</a>
+                <a class="btn btn-eris" href="{{ route('bookings.index') }}"> Back</a>
             </div>
         </div>
     </div>
@@ -66,7 +66,7 @@
             </div>
            
             <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="btn btn-eris">Submit</button>
             </div>
         </div>
 

@@ -7,7 +7,7 @@
                 <h2>Hotel Costa del Sol - Software prenotazioni</h2>
             </div>
             <div class="pull-right">
-                <a class="btn btn-success" href="{{ route('bookings.create') }}">Nuova prenotazione</a>
+                <a class="btn btn-eris" href="{{ route('bookings.create') }}">Nuova prenotazione</a>
             </div>
         </div>
     </div>
@@ -40,11 +40,11 @@
             <td>{{ $booking->more_details }}</td>
             <td>
                 <form action="{{ route('bookings.destroy',$booking->id) }}" method="POST">
-                    <a class="btn btn-info" href="{{ route('bookings.show',$booking->id) }}">Mostra</a>
-                    <a class="btn btn-primary" href="{{ route('bookings.edit',$booking->id) }}">Edit</a>
+                    <a class="btn btn-eris" href="{{ route('bookings.show',$booking->id) }}">Mostra</a>
+                    <a class="btn btn-eris" href="{{ route('bookings.edit',$booking->id) }}">Edit</a>
                     @csrf
                     @method('DELETE')
-                    <button type="submit" class="btn btn-danger">Elimina</button>
+                    <button type="submit" class="btn btn-eris">Elimina</button>
                 </form>
             </td>
         </tr>

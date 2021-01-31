@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Archivo+Black&display=swap);
+
+@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
+
+body {
+    background-color: #141514;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #8db310;
+    font-family: "Archivo Black", sans-serif;
+}
+
+.btn-eris {
+    background-color: #8db310;
+    color: #141514;
+    outline: none;
+}
+.btn-eris:hover {
+    background-color: #141514;
+    color: #8db310;
+    outline: none;
+    border: 1px solid #8db310;
+}
+
+.pagination > .disabled > span,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > a,
+.pagination > .disabled > a:focus,
+.pagination > .disabled > a:hover {
+    color: #818a91;
+    cursor: not-allowed;
+    background-color: #151415;
+    border-color: #8db310;
+}
+.pagination > li > a,
+.pagination > li > span {
+    position: relative;
+    float: left;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.5;
+    color: #8db310;
+    text-decoration: none;
+    background-color: #151415;
+    border: 1px solid #8db310;
+}
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+    z-index: 2;
+    color: #151415;
+    cursor: default;
+    background-color: #8db310;
+    border-color: #8db310;
+}
+.pagination > li > span:hover {
+    background-color: #8db310;
+}
+
+.page-link:hover {
+    z-index: 2;
+    color: #151415 !important;
+    text-decoration: none;
+    background-color: #8db310 !important;
+    border-color: #8db310 !important;
+}

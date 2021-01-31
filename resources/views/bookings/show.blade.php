@@ -7,7 +7,7 @@
                 <h2> Show Booking</h2>
             </div>
             <div class="pull-right">
-                <a class="btn btn-primary" href="{{ route('bookings.index') }}"> Back</a>
+                <a class="btn btn-eris" href="{{ route('bookings.index') }}"> Indietro</a>
             </div>
         </div>
     </div>
