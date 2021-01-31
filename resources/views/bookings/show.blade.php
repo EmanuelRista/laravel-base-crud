@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2> Show Booking</h2>
+                <h2> Mostra Booking</h2>
             </div>
             <div class="pull-right">
                 <a class="btn btn-eris" href="{{ route('bookings.index') }}"> Indietro</a>
@@ -15,37 +15,37 @@
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>Full name:</strong>
+                <strong>Nome e Cognome:</strong>
                 {{ $booking->guest_full_name }}
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>Credit card:</strong>
+                <strong>Carta di credito:</strong>
                 {{ $booking->guest_credit_card}}
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>Room:</strong>
+                <strong>Stanza:</strong>
                 {{ $booking->room }}
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>From:</strong>
+                <strong>Check in:</strong>
                 {{ $booking->from_date }}
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>To:</strong>
+                <strong>Check out:</strong>
                 {{ $booking->to_date }}
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>Details & Requests:</strong>
+                <strong>Note:</strong>
                 {{ $booking->more_details }}
             </div>
         </div>
